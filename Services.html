@@ -1,0 +1,902 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+  <!-- Display -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Identity -->
+  <title>Billyweb - creative web-development agency</title>
+  <meta name="author" content="Codings">
+  <link rel="shortcut icon" href="assets/images/billyweb.png" type="image/x-icon" />
+
+  <!-- Vendor Style Sheet -->
+  <link rel="stylesheet" href="assets/css/vendor/preloader.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/font-family.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/menu-engine.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/menu-grid.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/dynamic-slider.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/bricklayer.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/lightbox.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/aos.min.css" />
+
+  <!-- Main Style Sheet -->
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/core.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/style2.css">
+
+
+</head>
+
+<body class="billy-body">
+
+  <!-- Preloader -->
+  <div id="preloader" class="preloader white" data-delay="0" data-limit="3000">
+    <img src="assets/images/DA060862AFD1A533.png" class="emblem" alt="Emblem" />
+  </div>
+
+  <!-- Header -->
+  <header id="header" class="billy-header">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg absolute scheme-1">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <!-- <div class="site-title">Site Title</div> -->
+          <img src="assets/images/billyweb.png" data-logo-alt="assets/images/Billyweb-logo.png"
+            data-logo-mobile="assets/images/Billyweb-logo.png" height="55px" />
+          <span class="logo-after-text"></span>
+        </a>
+        <!-- Menu toggle -->
+        <div id="menu-toggle" class="menu-toggle is-inactive magnetic-effect scheme-1 primary">
+          <div class="menu-toggle-icon">
+            <div class="menu-toggle-container">
+              <span class="menu-toggle-line-top"></span>
+              <span class="menu-toggle-line-middle"></span>
+              <span class="menu-toggle-line-bottom"></span>
+            </div>
+          </div>
+          <div class="menu-toggle-circle">
+            <svg class="menu-toggle-menu-toggle-svg-circle">
+              <path class="menu-toggle-path-circle" fill="none" stroke-miterlimit="10" stroke-width="4"
+                d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+            </svg>
+          </div>
+          <svg width="0" height="0">
+            <mask id="menu-toggle-mask">
+              <path class="path-mask" fill="none" stroke-miterlimit="10" stroke-width="4"
+                d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+            </mask>
+          </svg>
+          <div class="menu-toggle-path">
+            <div class="path-animation">
+              <div class="path-rotation"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu grid -->
+        <nav id="menu-grid" class="menu-grid scheme-1 primary">
+          <div class="menu-grid-item item-1" data-direction="bt">
+            <div class="menu-grid-item-inner">
+              <!-- Label -->
+              <div class="menu-grid-label top">
+                <span class="label-vertical">
+                  <span class="label-line gray"></span>
+                </span>
+              </div>
+              <!-- Label -->
+              <div class="menu-grid-label bottom">
+                <span class="label-vertical">
+                  <span class="label-line gray"></span>
+                  <span class="label-text gray">MARKET REFERENCE</span>
+                </span>
+              </div>
+              <!-- Main menu -->
+              <div class="menu-grid-main">
+                <a href="index.html" class="menu-grid-main-item menu-item">home</a>
+                <a href="About.html" class="menu-grid-main-item menu-item">about</a>
+                <a href="Projects.html" class="menu-grid-main-item menu-item">projects</a>
+                <a href="Services.html" class="menu-grid-main-item menu-item">services</a>
+                <a href="Blog.html" class="menu-grid-main-item menu-item">blog</a>
+                <a href="Contact.html" class="menu-grid-main-item menu-item">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+  </header>
+  <div id="modal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog max-w-50">
+      <div class="modal-content shadow rounded" data-bg-color="#201f25">
+        <div class="modal-header">
+          <i class="fa-solid fa-xmark close-button white primary-hover" data-bs-dismiss="modal" aria-label="Close"></i>
+          <!-- Intro -->
+          <div class="basic-intro">
+            <h2 class="title text-style-5">
+              <span class="text-1 text-outline black scheme-1 text-gradient">How can </span>
+              <span class="text-2 text-italic text-gradient scheme-1">we help you?</span>
+            </h2>
+            <div class="description gray">
+              <p>Please fill in the form below and we will get back to you shortly. 🥳</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <!-- Form -->
+          <div class="form-area scheme-2 primary">
+            <form  class="form-fields needs-validation ajax-form" novalidate="novalidate">
+              <div class="form-row row">
+                <div class="form-col form-floating col-12 col-md-6">
+                  <input name="name" id="name" class="form-control" type="text" placeholder="Name" required="required">
+                  <label for="InputFloatingName" class="form-label">Name</label>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                  <div class="valid-feedback">Looks good.</div>
+                </div>
+                <div class="form-col form-floating col-12 col-md-6">
+                  <input name="email" id="email" class="form-control" type="email" placeholder="name@example.com"
+                    required="required">
+                  <label class="form-label">Email</label>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                  <div class="valid-feedback">Looks good.</div>
+                </div>
+              </div>
+              <div class="form-col form-floating col-12 col-md-6">
+                <input name="subject" id="subject" class="form-control" type="subject" placeholder="subject"
+                  required="required">
+                <label class="form-label">subject</label>
+                <div class="valid-feedback">Looks good.</div>
+              </div>
+
+              <div class="form-row row">
+                <div class="form-col form-floating col-12">
+                  <textarea name="message" id="message" class="form-control form-textarea" rows="3"
+                    placeholder="Enter your message (optional)."></textarea>
+                  <label for="message" class="form-label">Message</label>
+                  <div class="valid-feedback">It's optional, but we'd like to know about it :)</div>
+                </div>
+              </div>
+              <div class="form-row row">
+
+                <div class="form-col col-12 col-md-4 align-h-right">
+                  <!-- Button -->
+                  <button type="submit" class="button outline gray primary-hover magnetic-effect" id="btn">
+                    <span class="button-text primary white-hover">Send</span>
+                    <i class="fa-solid fa-arrow-right button-icon primary white-hover"></i>
+                  </button>
+                </div>
+              </div>
+              <span class="form-alert success">Your message was sent successful. Thanks.</span>
+              <span class="form-alert error">Sorry. We were unable to send your message.</span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <main id="main" class="billy-main" data-bg-color="#161616">
+    <section class="billy-section has-overlay">
+      <div class="banner">
+        <div class="content-wrapper">
+          <!-- Intro -->
+          <div class="extended-intro max-w-65">
+            <h1 class="title white">
+              <span class="text-1 text-style-1">Billyweb services</span>
+              <span class=" text-style-7 text-italic">we provide websites development with High efficient and perfect
+                prices </span>
+            </h1>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="image-wrapper">
+          <img src="assets/images/jpg/Bw-4.jpg" class="image vh-65 fit-cover"
+            alt="This is an example description for this item." />
+        </div>
+        <!-- Overlay -->
+        <div class="overlay black-50"></div>
+      </div>
+    </section>
+
+    <section class="billy-section pt-5 pb-5" data-bg-color="#16161b">
+      <div class="container">
+        <div class="basic-intro mb-35 text-center">
+          <h2 class="title text-style-5">
+            <span class="text-1 text-gradient scheme-1">steps we follow to done your job.</span>
+          </h2>
+        </div>
+        <div class="horizontal-tab mb-3 scheme-2 primary" data-aos="fade-up">
+          <!-- Tab navigation -->
+          <ul id="h-tab" class="nav nav-tabs" role="tablist" aria-orientation="horizontal">
+            <li class="nav-item" role="presentation">
+              <button id="h-1-tab" class="nav-link active" aria-selected="true" aria-controls="h-1" data-bs-target="#h-1" data-bs-toggle="tab" role="tab">
+                Define Goals  
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button id="h-2-tab" class="nav-link" aria-selected="false" aria-controls="h-2" data-bs-target="#h-2" data-bs-toggle="tab" role="tab">
+                planing
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button id="h-3-tab" class="nav-link" aria-selected="false" aria-controls="h-3" data-bs-target="#h-3" data-bs-toggle="tab" role="tab">
+                UX
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button id="h-4-tab" class="nav-link" aria-selected="false" aria-controls="h-4" data-bs-target="#h-4" data-bs-toggle="tab" role="tab">
+                development
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button id="h-5-tab" class="nav-link" aria-selected="false" aria-controls="h-5" data-bs-target="#h-5" data-bs-toggle="tab" role="tab">
+                website analytics
+              </button>
+            </li>
+          </ul>
+          <!-- Tab content -->
+          <div class="tab-content">
+            <div id="h-1" class="tab-pane fade show active" role="tabpanel">
+              <div class="max-w-75 mx-auto text-style-12 text-center">
+                <h4 class="text-style-10 primary">website analytics</h4>
+                <p>What do you want your website to achieve? Do you want to generate leads, sell products, showcase your portfolio, or provide information? Having a clear understanding of your goals will guide your entire website development process. </p>
+              </div>
+            </div>
+            <div id="h-2" class="tab-pane fade" role="tabpanel">
+              <div class="max-w-75 mx-auto text-style-12 text-center">
+                <h4 class="text-style-10 primary">Plan and Structure Your Website</h4>
+                <p>Create a sitemap: This will visually represent the hierarchy of your website's pages and how they connect to each other. Ensure a logical flow that makes navigation easy for users.
+                </p>
+              </div>
+            </div>
+            <div id="h-3" class="tab-pane fade" role="tabpanel">
+              <div class="max-w-75 mx-auto text-style-12 text-center">
+                <h4 class="text-style-10 primary">Design and User Experience (UX)</h4>
+                <p>Choose a professional design:  Your website's visual identity should be consistent with your brand and appeal to your target audience. Consider factors like color palettes, typography, and imagery.
+                </p>
+              </div>
+            </div>
+            <div id="h-4" class="tab-pane fade" role="tabpanel">
+              <div class="max-w-75 mx-auto text-style-12 text-center">
+                <h4 class="text-style-10 primary">Develop and Launch Your Website</h4>
+                <p>Choose the right platform: Decide whether to build your website from scratch, use a content management system (CMS) like WordPress, or hire a web developer. Consider your budget, technical skills, and website complexity.
+                </p>
+              </div>
+            </div>
+            <div id="h-5" class="tab-pane fade" role="tabpanel">
+              <div class="max-w-75 mx-auto text-style-12 text-center">
+                <h4 class="text-style-10 primary">Maintain and Update Your Website</h4>
+                <p>Monitor website analytics: Track your website traffic, user behavior, and conversions to see what's working and what's not. Use this data to make informed decisions about improving your website's performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+    <section class="billy-section pt-6 pb-6 js-switch-price">
+      <div class="container">
+        <!-- Intro -->
+        <div class="basic-intro mb-35 text-center">
+          <h2 class="title">
+            <span class="text-1 text-style-5 text-gradient scheme-1">Choose </span>
+            <span class="text-2 text-style-6 text-italic text-gradient scheme-1">your new plan.</span>
+          </h2>
+          <div class="description">
+            <!-- Plan switcher -->
+            <h5>Agency opening offer</h5>
+            <p class="text-italic"> create perfect website for your Business - Personal Branding - blogs - landing page
+              - portfolio - online store and more</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card has-price shadow parent">
+              <!-- Header -->
+              <div class="card-header pb-0 rounded-top text-center bg-color black">
+                <h3 class="title m-0 text-style-11 text-italic white">
+                  <span class="bg-color black">BASIC</span>
+                  <span class="zzz over-text scheme-2 gray"></span>
+                </h3>
+                <!-- Price -->
+                <div class="price-wrapper">
+                  <span class="currency text-style-8 gray-75">$</span>
+                  <span class="price text-style-3 text-gradient scheme-1 hover-up-down" data-annual="16"
+                    data-monthly="24">35</span>
+                </div>
+              </div>
+              <div class="card-body rounded-bottom bg-color black">
+                <!-- List -->
+                <ul class="checklist">
+                  <li class="item">
+                    <span class="text">6-7 Pages you </span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Free graphic content</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Portfolio or blog</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Code source</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Deployment</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Back-end database</span>
+                    <img class="image-icon white" src="assets/svg/close-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Unlimited support</span>
+                    <img class="image-icon white" src="assets/svg/close-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                </ul>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">GET STARTED</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="#modal" class="full-link" data-bs-toggle="modal"
+              data-bs-target="#modal"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card has-price shadow parent">
+              <!-- Header -->
+              <div class="card-header pb-0 rounded-top text-center bg-color black">
+                <h3 class="title m-0 text-style-11 text-italic white">
+                  <span class="bg-color black">STANDARD</span>
+                  <span class="zzz over-text scheme-2 gray"></span>
+                </h3>
+                <!-- Price -->
+                <div class="price-wrapper">
+                  <span class="currency text-style-8 gray-75">$</span>
+                  <span class="price text-style-3 text-gradient scheme-1 hover-up-down">49</span>
+                </div>
+              </div>
+              <div class="card-body rounded-bottom bg-color black">
+                <!-- Label -->
+                <span class="label-vertical to-bottom-right-out">
+                  <span class="label-line gray"></span>
+                  <span class="label-text gray">Most Popular</span>
+                </span>
+                <!-- List -->
+                <ul class="checklist">
+                  <li class="item">
+                    <span class="text">All Pages you need</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Free graphic content</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Online store</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">WordPress/shopify/wix.. </span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Product setup</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Code source</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Deployment</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Back-end database</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Unlimited support</span>
+                    <img class="image-icon white" src="assets/svg/close-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                </ul>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">GET STARTED</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="#modal" class="full-link" data-bs-toggle="modal"
+              data-bs-target="#modal"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card has-price shadow parent">
+              <!-- Header -->
+              <div class="card-header pb-0 rounded-top text-center bg-color black">
+                <h3 class="title m-0 text-style-11 text-italic white">
+                  <span class="bg-color black">PREMIUM</span>
+                  <span class="zzz over-text scheme-2 gray"></span>
+                </h3>
+                <!-- Price -->
+                <div class="price-wrapper">
+                  <span class="currency text-style-8 gray-75">$</span>
+                  <span class="price text-style-3 text-gradient scheme-1 hover-up-down" data-annual="46"
+                    data-monthly="60">70</span>
+                </div>
+              </div>
+              <div class="card-body rounded-bottom bg-color black">
+                <!-- List -->
+                <ul class="checklist">
+                  <li class="item">
+                    <span class="text">All pages you need</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Premium graphic content</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Creating any kind of business</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Deployment</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Premium plugins</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">code source</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">content creation</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Back-end database</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                  <li class="item">
+                    <span class="text">Unlimited support</span>
+                    <img class="image-icon white" src="assets/svg/checkmark-outline.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                  </li>
+                </ul>
+
+                </ul>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">GET STARTED</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="#modal" class="full-link" data-bs-toggle="modal"
+              data-bs-target="#modal"></a>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Banner -->
+    <section class="">
+      <div class="container max-w-75">
+        <!-- Intro -->
+        <div class="basic-intro text-center">
+          <h1 class="title black">
+            <span class="text-1 d-block text-style-2 text-outline scheme-1 text-gradient">Support our existence</span>
+            <span class="text-2 d-block text-style-3 text-italic scheme-1 text-gradient">on freelancing platforms</span>
+          </h1>
+          <br>
+          <h5>Buy from our accounts on freelancing platform and get Amazing offers</h5>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="billy-section pt-5 pb-5">
+      <div class="text-center basic-intro">
+        <h1 class="title black">
+          <span class="text-2 d-block text-style-3 text-italic scheme-1 primary ">Fiverr</span>
+        </h1>
+      </div>
+      <br>
+      <div class="container">
+        <!-- Posts -->
+        <div id="load-more" class="row g-5" data-display="6" data-columns="3">
+          <div class="col-12 col-md-6 col-lg-4 load-more-item">
+            <div class="card has-image shadow parent">
+              <!-- Icon -->
+              <div class="sticky-post-icon primary-25">
+                <i class="fas fa-thumbtack icon primary"></i>
+              </div>
+              <!-- Label -->
+              <span class="label-vertical to-bottom-right-out">
+                <span class="label-line gray"></span>
+              </span>
+              <!-- Image -->
+              <div class="image-wrapper rounded-top hover-zoom">
+                <img src="assets/images/jpg/BWF.jpeg" alt="Image name" class="image" />
+              </div>
+              <!-- Body -->
+              <div class="card-body rounded-bottom bg-color black">
+                <h3 class="title text-style-11 white">I will build static website portfolio free hosting on github</h3>
+                <p class="description line-clamp-3">you are designer , photographer , artist or anything else your business absolutely need a webpage that show your work and skills to customers, it's time to create your works museum and show to the world how good are you in your job
+                  ...</p>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">Go Fiverr</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="https://www.fiverr.com/s/Zk9EvQ" class="full-link"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 load-more-item">
+            <div class="card has-image shadow parent">
+              <!-- Icon -->
+              <div class="sticky-post-icon primary-25">
+                <i class="fas fa-thumbtack icon primary"></i>
+              </div>
+              <!-- Label -->
+              <span class="label-vertical to-bottom-right-out">
+                <span class="label-line gray"></span>
+              </span>
+              <!-- Image -->
+              <div class="image-wrapper rounded-top hover-zoom">
+                <img src="assets/images/jpg/bww.jpeg" alt="Image name" class="image" />
+              </div>
+              <!-- Body -->
+              <div class="card-body rounded-bottom bg-color black">
+                <h3 class="title text-style-11 white">I will create modern business wordpress website
+                </h3>
+                <p class="description line-clamp-3">I will create for you awesome personal / business / blog / e-commerce and more WordPress websites with awesome-looking for your project + free logo .SVG if you want
+
+                  I have more having 3 Year's Experience
+                  
+                  I'm ready to apply your Ideas on this work and make you satisfied...</p>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">Go Fiverr</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="https://www.fiverr.com/s/oV6YPL" class="full-link"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 load-more-item">
+            <div class="card has-image shadow parent">
+              <!-- Icon -->
+              <div class="sticky-post-icon primary-25">
+                <i class="fas fa-thumbtack icon primary"></i>
+              </div>
+              <!-- Label -->
+              <span class="label-vertical to-bottom-right-out">
+                <span class="label-line gray"></span>
+              </span>
+              <!-- Image -->
+              <div class="image-wrapper rounded-top hover-zoom">
+                <img src="assets/images/jpg/BWCMS.webp" alt="Image name" class="image" />
+              </div>
+              <!-- Body -->
+              <div class="card-body rounded-bottom bg-color black">
+                <h3 class="title text-style-11 white">I will build your drop servicing website on any cms
+                </h3>
+                <p class="description line-clamp-3">Are you ready to elevate your online presence and create a thriving ecommerce store? (dropservices dropshiping projects or any kinds of business) Look no further! 
+
+                  I offer a comprehensive solution that covers everything you need to bring your project...</p>
+                <!-- Button -->
+                <div class="button-wrapper align-h-right">
+                  <span class="button arrow-button cross scheme-2 primary">
+                    <span class="arrow">
+                      <span class="item"></span>
+                      <span class="item"></span>
+                    </span>
+                    <span class="line"></span>
+                    <span class="text">Go Fiverr</span>
+                  </span>
+                </div>
+              </div>
+              <!-- Link -->
+              <a href="https://www.fiverr.com/s/oV6YPL" class="full-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 text-center">
+          <!-- Button -->
+          <button id="load-more-button" class="button double-edge transparent black-hover">
+            <span class="button-text white primary-hover">Load more</span>
+            <i class="fa-solid fa-rotate-right button-icon white primary-hover"></i>
+            <span class="overlay gray-50 magnetic-effect"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <!-- Footer -->
+ <footer id="footer" class="billy-footer scheme-1 primary">
+    <div class="footer-content focus-trigger">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="footer-item">
+              <!-- Brand -->
+              <a href="#" class="footer-brand floating-item">
+                <!-- <div class="site-title">Site Title</div> -->
+                <img src="assets/images/billyweb.png" alt="billyweb" class="logo" />
+              </a>
+              <!-- Text -->
+              <div class="footer-text">
+                <p>Billyweb Agency Creative Development Web is a dynamic and innovative digital agency at the forefront
+                  of web development and creative design</p>
+              </div>
+            </div>
+            <div class="footer-item">
+              <h6 class="title">Contact Us</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="tel:+19912345678" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/call-sharp.svg" alt="Icon name" data-billy-icon="32" />
+                    <span class="text">+212632278690</span>
+                    <span class="badge flex ms-1 primary primary-hover">
+                      <span class="badge-text white white-hover">Mon-Fri</span>
+                    </span>
+                  </a>
+                  <a href="tel:+19912345678" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/logo-whatsapp.svg" alt="Icon name" data-billy-icon="32" />
+                    <span class="text">+212656769346</span>
+                    <span class="badge flex ms-1 primary primary-hover">
+                      <span class="badge-text white white-hover">Mon-Fri</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:contact@mail.com" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/mail-sharp.svg" alt="Icon name" data-billy-icon="32" />
+                    <span class="text">billywweb@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="footer-item">
+              <h6 class="title">Quick Links</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="About.html" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/chevron-forward-sharp.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                    <span class="text">Who We Are</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="Projects.html" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/chevron-forward-sharp.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                    <span class="text">Social Projects</span>
+                    <span class="badge flex ms-1 primary primary-hover">
+                      <span class="badge-text white white-hover">New</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="Services.html" class="nav-link has-icon">
+                    <img class="image-icon" src="assets/svg/chevron-forward-sharp.svg" alt="Icon name"
+                      data-billy-icon="32" />
+                    <span class="text">Our Services</span>
+                  </a>
+                </li>
+               
+              </ul>
+            </div>
+            <div class="footer-item">
+              <!-- Button -->
+              <a href="Contact.html" class="button outline gray primary-hover">
+                <span class="hover-rotate">
+                  <span class="button-text white white-hover">Get in Touch</span>
+                  <i class="fa-solid fa-arrow-right button-icon white white-hover"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="footer-item">
+              <h6 class="title">Support Us</h6>
+              <!-- Tag Cloud -->
+            
+             <a href="#" class="button outline gray primary-hover">
+                <span class="hover-rotate">
+                  <span class="button-text white white-hover">Donate</span>
+                  <i class="fa-solid fa-arrow-right button-icon white white-hover"></i>
+                </span>
+            </a>
+            
+            
+            </div>
+            <div class="footer-item">
+              <h6 class="title">Follow Us</h6>
+              <!-- Icon list -->
+              <div class="list-wrapper">
+                <ul class="icon-h-list">
+                  <li class="item">
+                    <a href="https://www.linkedin.com/in/billy-web-672bab2a3/" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="ms-0 item">
+                    <a href="https://www.instagram.com/billy_web3/" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-instagram"></i></a>
+                  </li>
+                  <li class="ms-0 item">
+                    <a href="https://www.facebook.com/profile.php?id=61554305545652" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-facebook-f"></i></a>
+                  </li>
+                  <li class="ms-0 item">
+                    <a href="https://www.youtube.com/channel/UCC-UmjO6okYrdNcjkmfig6Q" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-youtube"></i></a>
+                  </li>
+                  <li class="ms-0 item">
+                    <a href="#https://github.com/Billywweb" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-github"></i></a>
+                  </li>
+                  <li class="ms-0 item">
+                    <a href="https://www.tiktok.com/@_billyweb" target="_blank" class="link gray primary-hover hover-rotate"><i
+                        class="icon fab fa-tiktok"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="footer-item">
+              <h6 class="title">Inspirations</h6>
+              <!-- Image -->
+              <a href="Projects.html" class="footer-image black">
+                <img src="assets/images/galaxy.jpg" alt="Image name" class="image shadow">
+                <span class="title">View Portfolio</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div class="text">© 2023 - All rights reserved. The <a href="index.html"
+          class="link gray primary-hover"><u>Billyweb</u></a> is developed and maintained by <a
+          href="index.html" class="link gray primary-hover"><u>Billyweb</u></a>.</div>
+    </div>
+  </footer>
+
+  <!-- Cursor -->
+  <svg class="cursor-effect primary" width="220" height="220" viewBox="0 0 220 220">
+    <defs>
+      <filter id="cursor-effect-filter" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+        <feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp"></feTurbulence>
+        <feOffset dx="-30" result="warpOffset"></feOffset>
+        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="20" in="SourceGraphic" in2="warpOffset">
+        </feDisplacementMap>
+      </filter>
+    </defs>
+    <circle class="cursor-effect-inner" cx="110" cy="110" r="20"></circle>
+  </svg>
+
+  <!-- Vendor JavaScript -->
+  <script src="assets/js/vendor/jquery.min.js"></script>
+  <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/js/vendor/preloader.min.js"></script>
+  <script src="assets/js/vendor/inview.min.js"></script>
+  <script src="assets/js/vendor/menu-engine.min.js"></script>
+  <script src="assets/js/vendor/menu-grid.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/swiper.min.js"></script>
+  <script src="assets/js/vendor/anime.min.js"></script>
+  <script src="assets/js/vendor/dynamic-slider.min.js"></script>
+  <script src="assets/js/vendor/shuffle.min.js"></script>
+  <script src="assets/js/vendor/stickybits.min.js"></script>
+  <script src="assets/js/vendor/bricklayer.min.js"></script>
+  <script src="assets/js/vendor/lightbox.min.js"></script>
+  <script src="assets/js/vendor/typed.min.js"></script>
+  <script src="assets/js/vendor/progressbar.min.js"></script>
+  <script src="assets/js/vendor/map-styles.min.js"></script>
+  <script src="assets/js/vendor/magnetic-effect.min.js"></script>
+  <script src="assets/js/vendor/gsap.min.js"></script>
+  <script src="assets/js/vendor/aos.min.js"></script>
+  <script src="assets/js/vendor/lax.min.js"></script>
+  <script src="assets/js/vendor/cursor-effect.min.js"></script>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/mail.js"></script>
+
+
+</body>
+
+</html>
