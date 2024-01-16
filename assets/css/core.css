@@ -1033,7 +1033,7 @@ img, svg {
 	}
 
 	.bg-image.bg-only-desktop {
-    background-size: 0;
+    background-size: 100%;
 	}
 }
 
